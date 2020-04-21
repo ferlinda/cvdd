@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:gravity="center"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.covid.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/circularstdbold"
+        android:gravity="center"
+        android:hint="df"
+        android:text="User Login "
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:gravity="center"
+        android:fontFamily="@font/circularstdbook"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:fontFamily="@font/circularstdbook"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/circularstdmedium"
+        android:layout_centerHorizontal="true"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/buttonRegister"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        android:fontFamily="@font/circularstdbook"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Belum punya akun? Daftar"-->
+    <!--        android:textColor="#ffff"-->
+    <!--        android:textSize="16sp" />-->
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_check"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="183dp"
+        android:fontFamily="@font/circularstdbold"
+        android:gravity="center_horizontal"
+        android:text="Khawatir akan COVID-19?"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:fontFamily="@font/circularstdbook"
+        android:gravity="center_horizontal"
+        android:text="Yuk cek risiko kamu!"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/button_check"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="170dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/ic_check" />
+
+</RelativeLayout>
